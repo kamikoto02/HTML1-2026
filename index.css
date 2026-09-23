@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    color: #e0e0de;
+    color: whitesmoke;
     font-family: Arial, sans-serif;
     line-height: 30px;
 }
@@ -10,7 +10,7 @@ body {
     background-color: #3b3a38;
 }
 .content {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .title {
     text-align: center;
@@ -27,7 +27,7 @@ body {
     background-color: #595857;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid  wheat;
+    border: 2px solid  #878784;
 }
 
 
@@ -38,4 +38,54 @@ body {
     display: block;
     margin-right: 20px;
     border-radius: 5px;
+}
+.news-form {
+    margin: 40px auto;
+    max-width: 580px;
+    background-color: #595857;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid  #878784;
+}
+.form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.form input {
+    margin:0 auto;
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+   
+}
+.news-form p {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.button-container {
+    text-align: center;
+}
+button {
+    margin-top: 30px;
+    background-color: #3b3a38;
+    color: #c7c7c5;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.1s ease;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    opacity: 0.6;
 }
