@@ -9,6 +9,14 @@
 body {
     background-color: #3b3a38;
 }
+header {
+    height: 50px;
+    background-color: #636260;
+}
+footer {
+    height: 50px;
+    background-color: #636260;
+}
 .content {
     margin-top: 60px;
 }
