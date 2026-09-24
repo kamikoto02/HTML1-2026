@@ -34,6 +34,7 @@ footer {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    animation: show 1s ease-in-out;
  }
 
 .news-item {
@@ -106,6 +107,16 @@ button:hover {
 }
 button:active {
     opacity: 0.6;
+}
+@keyframes show {
+    from {
+        transform: translateY(30px);
+        scale: 0.9;
+    }
+    to {
+        transform: translateY(0);
+        scale: 1;
+    }
 }
 
 @media screen and (max-width: 700px) {
